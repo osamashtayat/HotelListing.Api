@@ -1,0 +1,35 @@
+@host = http://localhost:5273
+@hotels = {{host}}/api/hotels
+
+# ### Get all hotels
+# GET {{host}}/api/hotels
+# Accept: application/json
+
+# ### Get hotel 1
+# GET {{host}}/api/hotels/1
+# Accept: application/json
+
+# ### Add a hotel
+# POST {{host}}/api/hotels
+# Content-Type: application/json
+
+# {
+#   "id": 4,
+#   "name": "Hotel D",
+#   "address": "100 Beach Road",
+#   "rating": 4.7
+# }
+
+# ### Update hotel 1
+# PUT {{host}}/api/hotels/1
+# Content-Type: application/json
+
+# {
+#   "id": 1,
+#   "name": "Updated Hotel A",
+#   "address": "500 New Street",
+#   "rating": 4.9
+# }
+
+# ### Delete hotel 3
+# DELETE {{host}}/api/hotels/3
